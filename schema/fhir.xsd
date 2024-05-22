@@ -4,8 +4,16 @@
            elementFormDefault="qualified"
            attributeFormDefault="unqualified">
 
-  <!-- Define fhir:version and fhir:kind locally -->
+ <!-- Define fhir:version and fhir:kind locally -->
   <xs:element name="version" type="xs:string"/>
-  <xs:element name="kind" type="xs:string"/>
+  <xs:element name="kind" type="fhir:fhirKindType"/>
+
+  <!-- Restrict fhir:kind to specific values -->
+  <xs:simpleType name="fhirKindType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="fhir.template"/>
+      <xs:enumeration value="IG"/>
+    </xs:restriction>
+  </xs:simpleType>
 
 </xs:schema>

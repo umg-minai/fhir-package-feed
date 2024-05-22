@@ -8,7 +8,6 @@ xml_doc = ET.parse('package-feed.xml')
 if not schema.validate(xml_doc):
     for error in schema.error_log:
         print(f"Error ({error.filename}:{error.line}): {error.message}")
-        #print(dir(error))
     raise Exception("XML validation failed")
 else:
     print("XML is valid")

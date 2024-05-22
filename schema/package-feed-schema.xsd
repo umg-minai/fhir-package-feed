@@ -12,6 +12,13 @@
   <xs:import namespace="http://hl7.org/fhir" schemaLocation="fhir.xsd"/>
 
 
+  <!-- Define pubDate with the specified format -->
+  <xs:simpleType name="pubDateType">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[A-Za-z]{3}, \d{2} [A-Za-z]{3} \d{4} \d{2}:\d{2}:\d{2} UTC"/>
+    </xs:restriction>
+  </xs:simpleType>
+
 
     <xs:element name="rss">
     <xs:complexType>
@@ -46,7 +53,7 @@
                     <xs:element ref="dc:creator" />
                     <xs:element ref="fhir:version" />
                     <xs:element ref="fhir:kind" />
-                    <xs:element name="pubDate" type="xs:string"/>
+                    <xs:element name="pubDate" type="pubDateType"/>
                   </xs:sequence>
                 </xs:complexType>
               </xs:element>
