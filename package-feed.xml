@@ -60,5 +60,15 @@
       <fhir:kind>fhir.template</fhir:kind>
       <pubDate>Sat, 11 Nov 2023 12:47:07 UTC</pubDate>
     </item>
+    <item>
+      <title>de.netzwerk-universitaetsmedizin.ebm-cpg#0.8.0</title>
+      <description>Release 0.8.0 of de.netzwerk-universitaetsmedizin.ebm-cpg</description>
+      <link>https://github.com/CEOsys/cpg-on-ebm-on-fhir/releases/download/v0.8.0/de.netzwerk-universitaetsmedizin.ebm-cpg-0.8.0.tgz?raw=true</link>
+      <guid isPermaLink="true">https://github.com/CEOsys/cpg-on-ebm-on-fhir/releases/download/v0.8.0/de.netzwerk-universitaetsmedizin.ebm-cpg-0.8.0.tgz?raw=true</guid>
+      <dc:creator>glichtner</dc:creator>
+      <fhir:version>0.8.0</fhir:version>
+      <fhir:kind>IG</fhir:kind>
+      <pubDate>Wed, 22 May 2024 16:29:58 UTC</pubDate>
+    </item>
   </channel>
 </rss>
