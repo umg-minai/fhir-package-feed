@@ -87,7 +87,7 @@
       <guid isPermaLink="true">https://github.com/CEOsys/ig-template-ceosys/releases/download/v0.1.1/de.netzwerk-universitaetsmedizin.ceosys.template-0.1.1.tgz?raw=true</guid>
       <dc:creator>glichtner</dc:creator>
       <fhir:version>5.0.0</fhir:version>
-      <fhir:kind>IG</fhir:kind>
+      <fhir:kind>fhir.template</fhir:kind>
       <pubDate>Wed, 29 May 2024 04:34:42 UTC</pubDate>
     </item>
   </channel>
