@@ -2,14 +2,14 @@
            xmlns:dc="http://purl.org/dc/elements/1.1/"
            xmlns:content="http://purl.org/rss/1.0/modules/content/"
            xmlns:atom="http://www.w3.org/2005/Atom"
-           xmlns:fhir="http://hl7.org/fhir"
+           xmlns:fhir="http://hl7.org/fhir/feed"
            elementFormDefault="qualified"
            attributeFormDefault="unqualified">
 
   
   <xs:import namespace="http://purl.org/dc/elements/1.1/" schemaLocation="http://dublincore.org/schemas/xmls/qdc/2008/02/11/dc.xsd"/>
   <xs:import namespace="http://www.w3.org/2005/Atom" schemaLocation="atom.xsd"/>
-  <xs:import namespace="http://hl7.org/fhir" schemaLocation="fhir.xsd"/>
+  <xs:import namespace="http://hl7.org/fhir/feed" schemaLocation="fhir.xsd"/>
 
 
   <!-- Define pubDate with the specified format -->
