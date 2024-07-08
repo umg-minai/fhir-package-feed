@@ -7,6 +7,7 @@
     <generator>UMG MINAI FHIR Publication tooling</generator>
     <lastBuildDate>Mon, 08 Jul 2024 16:44:26 UTC</lastBuildDate>
     <atom:link href="https://github.com/umg-minai/fhir-package-feed/blob/main/package-feed.xml?raw=true" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 08 Jul 2024 16:44:26 UTC</pubDate>
     <language>en</language>
     <ttl>600</ttl>
     <item>
