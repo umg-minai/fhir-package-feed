@@ -7,7 +7,6 @@
     <generator>UMG MINAI FHIR Publication tooling</generator>
     <lastBuildDate>Mon, 08 Jul 2024 16:44:26 UTC</lastBuildDate>
     <atom:link href="https://github.com/umg-minai/fhir-package-feed/blob/main/package-feed.xml?raw=true" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 08 Jul 2024 16:44:26 UTC</pubDate>
     <language>en</language>
     <ttl>600</ttl>
     <item>
@@ -109,6 +108,16 @@
       <fhir:version/>
       <fhir:kind>IG</fhir:kind>
       <pubDate>Mon, 08 Jul 2024 16:44:26 UTC</pubDate>
+    </item>
+     <item>
+      <title>de.netzwerk-universitaetsmedizin.ebm-cpg#0.9.2</title>
+      <description>Release 0.9.2 of de.netzwerk-universitaetsmedizin.ebm-cpg</description>
+      <link>https://github.com/CEOsys/cpg-on-ebm-on-fhir/releases/download/v0.9.2/de.netzwerk-universitaetsmedizin.ebm-cpg-0.9.2.tgz?raw=true</link>
+      <guid isPermaLink="true">https://github.com/CEOsys/cpg-on-ebm-on-fhir/releases/download/v0.9.2/de.netzwerk-universitaetsmedizin.ebm-cpg-0.9.2.tgz?raw=true</guid>
+      <dc:creator>glichtner</dc:creator>
+      <fhir:version/>
+      <fhir:kind>IG</fhir:kind>
+      <pubDate>Mon, 08 Jul 2024 14:36:06 UTC</pubDate>
     </item>
   </channel>
 </rss>
