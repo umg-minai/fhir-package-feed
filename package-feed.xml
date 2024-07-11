@@ -31,16 +31,6 @@
       <pubDate>Sat, 11 Nov 2023 12:47:07 UTC</pubDate>
     </item>
     <item>
-      <title>de.netzwerk-universitaetsmedizin.ebm-cpg#0.6.0</title>
-      <description>de.netzwerk-universitaetsmedizin.ebm-cpg</description>
-      <link>https://github.com/CEOsys/cpg-on-ebm-on-fhir/releases/download/v0.6.0/ebm-cpg.netzwerk-universitaetsmedizin.de-0.6.0.tgz?raw=true</link>
-      <guid isPermaLink="true">https://github.com/CEOsys/cpg-on-ebm-on-fhir/releases/download/v0.6.0/ebm-cpg.netzwerk-universitaetsmedizin.de-0.6.0.tgz?raw=true</guid>
-      <dc:creator>glichtner</dc:creator>
-      <fhir:version>5.0.0</fhir:version>
-      <fhir:kind>IG</fhir:kind>
-      <pubDate>Sat, 11 Nov 2023 12:47:07 UTC</pubDate>
-    </item>
-    <item>
       <title>de.netzwerk-universitaetsmedizin.ceosys.template#0.1.0</title>
       <description>de.netzwerk-universitaetsmedizin.ceosys.template</description>
       <link>https://github.com/CEOsys/ig-template-ceosys/releases/download/v0.1.0/package.tar.gz?raw=true</link>
